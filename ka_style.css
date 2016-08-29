@@ -1,0 +1,113 @@
+ .label
+         {
+          font-family: Helvetica, Arial, sans-serif;
+          margin-right: 30px;
+          margin-left: 10px;
+          font-size: 15px;
+         }
+         label.error
+         {
+          margin-left: 97px;
+          margin-bottom: -30px;
+          color: red;
+
+         }
+          #message
+          {
+            margin-left: 10px;
+          }
+          #date
+          {
+            margin-left: 10px;
+          }
+          textarea, input[type="text"], input[type="date"]
+          {
+            height: 30px;
+          }
+          #result_table
+          {
+            margin:0,auto;
+          }
+          .btn 
+          {
+             
+              border: none;
+              color: white;
+              padding: 10px 15px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              -webkit-transition-duration: 0.4s; /* Safari */
+              transition-duration: 0.4s;
+              cursor: pointer;
+          }
+          .btn-success
+          {
+               background-color: white;
+              color: black;
+               border: 2px solid #008CBA;
+          }
+
+          .btn-success:hover 
+          {
+              background-color: #008CBA;
+              color: white;
+          }
+          th, td
+           {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+          tr:hover
+          {
+            background-color:aqua
+          }
+          fieldset
+           {      
+                  display: block;
+                  margin-left: 2px;
+                  margin-right: 2px;
+                  padding-top: 0.35em;
+                  padding-bottom: 0.625em;
+                  padding-left: 0.75em;
+                  padding-right: 0.75em;
+                 
+            }     
+
+             ul.pagination 
+            {
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+
+            }
+
+            
+            ul.pagination a 
+            {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+                transition: background-color .3s;
+                border: 1px solid #ddd;
+            }
+
+            ul.pagination  a.active 
+            {
+                background-color: #4CAF50;
+                color: aqua;
+                border: 1px solid #4CAF50;
+       
+            }
+            div.center {text-align: center;}
+            ul.pagination  a:hover:not(.active) {background-color: #ddd;}
+            tbody 
+            {
+                height: 50px;
+                vertical-align: bottom;
+            }     
